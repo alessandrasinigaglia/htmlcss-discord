@@ -113,6 +113,9 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
+    position: relative;
+    left: 290px;
+    top: 80px;
 }
 
 .p-head {
@@ -120,6 +123,12 @@ header {
     align-items: center;
     justify-content: flex-start;
     color: white;
+    position: relative;
+    right: 165px;
+}
+
+.fa-arrow-down-long {
+    color: black;
 }
 
 /*-----------
@@ -212,7 +221,7 @@ section {
    }
 
 .bg-grey {
-    background-color: #d3d3d3;
+    background-color: white;
     padding-top: 90px;
     padding-bottom: 200px;
 }
@@ -220,7 +229,7 @@ section {
 .container-3 {
     display: flex;
     padding: 30px 0;
-    background-color: #d3d3d3;
+    background-color: white;
     align-items: center;
     justify-content: center;
     flex-direction: row-reverse;
@@ -246,6 +255,9 @@ section {
 
 .stars {
     text-align: center;
+    position: relative;
+    left: 330px;
+    bottom: 100px;
 }
 
 /*-----------
@@ -278,7 +290,9 @@ footer {
 
 .line {
     padding: 1px;
-    background-color: white;
+    background-color: #4a5882;
+    margin-left: 280px;
+    margin-right: 280px;
 }
 
 .footer-bottom {
@@ -290,4 +304,72 @@ footer {
 
 .logo-2, .button {
     padding: 0px 0px;
+}
+
+h3 {
+    color: #7289da ;
+    font-size: 25px;
+}
+
+.it-flag {
+    width: 20px;
+    margin-top: 20px;
+}
+
+.p-footer {
+    font-size: 14px;
+    color: white;
+}
+
+i {
+    color: white;
+}
+h4 {
+    color: #7289da;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.col-big-foot {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    margin: 60px;
+}
+
+.col-small-foot {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 400px;
+    margin-left: 70px;
+    margin-top: 60px;
+    color: white;
+    font-size: 12px;
+}
+.col-small-foot p {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.logo-2 {
+    margin-top: 12px;
+}
+
+.button {
+    background-color: #8ea1e1;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 10px;
+    margin-top: 1px;
+    width: 90px;
+    height: auto;
 }
